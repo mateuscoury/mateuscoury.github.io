@@ -1,0 +1,59 @@
+.ContainerModal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  border-radius: 30px;
+  background-color: white;
+  height: 1000px;
+}
+#imagemContainer {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+#desContainer {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+#imagemContainer img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid black;
+}
+
+#desContainer a {
+  padding: 20px;
+  margin: 15px 0;
+  text-decoration: none;
+  background-color: green;
+  color: orange;
+  font-size: 20px;
+  transition: all ease 0.3s;
+  border-radius: 15px;
+  outline: 0;
+}
+#desContainer h1,
+p {
+  margin: 25px 15px;
+}
+#desContainer a:hover {
+  background-color: orange;
+  color: green;
+}

@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+#gridContainer {
+  width: 70%;
+  display: grid;
+  height: 90%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  border-bottom: 1px solid black;
+}
+/* .cards {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+} */
+#portifolio {
+  display: flex;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+}
+#insideContainer {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+#about {
+  display: flex;
+  height: 100vh;
+
+  align-items: center;
+  justify-content: center;
+}
+#right {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  font-size: 30px;
+  font-weight: 500;
+  flex-direction: column;
+  width: 600px;
+}
+#right div:nth-child(1) {
+  height: 200px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#right div:nth-child(1) img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid chocolate;
+}
+#left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
+#contato {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid black;
+}

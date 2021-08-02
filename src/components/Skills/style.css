@@ -1,0 +1,9 @@
+#skillContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  background-color: rosybrown;
+  height: 50px;
+}
