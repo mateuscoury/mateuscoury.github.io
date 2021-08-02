@@ -14,10 +14,10 @@
 .content {
   display: flex;
   flex-direction: column;
-  width: 900px;
+  width: 600px;
   border-radius: 30px;
   background-color: white;
-  height: 1000px;
+  height: 700px;
 }
 #imagemContainer {
   width: 100%;
@@ -40,7 +40,8 @@
 
 #desContainer a {
   padding: 20px;
-  margin: 15px 0;
+  /*   margin: 15px 0; */
+  margin-bottom: 15px;
   text-decoration: none;
   background-color: green;
   color: orange;

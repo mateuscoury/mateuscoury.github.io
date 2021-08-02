@@ -5,6 +5,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 99;
   width: 100vw;
   height: 100px;
   background-color: ${({ display }) => (display ? 'gray' : 'transparent')};

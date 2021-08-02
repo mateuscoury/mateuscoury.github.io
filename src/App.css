@@ -13,8 +13,10 @@
 }
 #gridContainer {
   width: 70%;
+
   display: grid;
-  height: 90%;
+  height: 80%;
+
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   border-bottom: 1px solid black;
@@ -35,7 +37,8 @@
   width: 60%;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: 80%;
+
   border-bottom: 1px solid black;
   display: flex;
 }
@@ -47,12 +50,13 @@
   justify-content: center;
 }
 #right {
+  margin-left: 25px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: start;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   flex-direction: column;
   width: 600px;
@@ -61,21 +65,23 @@
   height: 200px;
   display: flex;
   width: 100%;
+
   justify-content: space-between;
 }
 #right div:nth-child(1) img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 5px solid chocolate;
 }
 #left {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   flex: 1;
   height: 100%;
+  margin-right: 25px;
 }
 #contato {
   height: 100vh;
@@ -85,3 +91,12 @@
   align-items: center;
   border-bottom: 1px solid black;
 }
+
+/*responsividade em breve*/
+/* @media screen and (max-width: 375px) {
+  * {
+    font-size: 2px;
+    font-family: monospace;
+  }
+} ;
+ */
