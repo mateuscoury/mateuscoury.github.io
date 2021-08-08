@@ -8,4 +8,9 @@ export const Container = styled.div`
 export const Content = styled.div`
   height: 800px;
   flex: 1;
+  @media screen and (max-width: 975px) {
+    & {
+      width: 1000px;
+    }
+  }
 `;

@@ -11,6 +11,7 @@
   height: 100vh;
   flex-direction: column;
 }
+
 #gridContainer {
   width: 70%;
 
@@ -29,9 +30,13 @@
 #portifolio {
   display: flex;
   height: 100vh;
+  flex-direction: column;
 
   justify-content: center;
   align-items: center;
+}
+#portifolio h1 {
+  margin-bottom: 20px;
 }
 #insideContainer {
   width: 60%;
@@ -93,10 +98,32 @@
 }
 
 /*responsividade em breve*/
-/* @media screen and (max-width: 375px) {
-  * {
-    font-size: 2px;
-    font-family: monospace;
+@media screen and (max-width: 975px) {
+  #home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+  }
+  #home h1,
+  h2 {
+    font-size: 90%;
+  }
+  #areaImageProg img {
+    height: 450px;
+    width: 450px;
+  }
+  #right {
+    font-size: 20px;
+  }
+  #right div:nth-child(1) {
+    height: 100px;
+
+    width: 100%;
+  }
+  .particles-bg-canvas-self {
+    display: none;
   }
 } ;
- */

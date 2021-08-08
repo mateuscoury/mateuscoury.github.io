@@ -1,11 +1,10 @@
-#containerCard {
-  width: 80%;
+.containerBox {
+  width: 70%;
   background-color: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 80%;
-
   align-items: center;
   text-transform: uppercase;
   transition: ease all 0.2s;
@@ -15,10 +14,10 @@
   font-size: 15px;
   border-radius: 20px;
 }
-#imageCard {
+.imageBox {
   width: 100%;
   height: 100%;
 }
-#containerCard:hover {
+.containerBox:hover {
   transform: scale(1);
 }

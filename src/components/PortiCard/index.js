@@ -12,9 +12,9 @@ export default ({ name, image, setVisible, setData, rota, desc }) => {
     });
   };
   return (
-    <div id='containerCard' onClick={handleModal}>
+    <div className='containerBox' onClick={handleModal}>
       <div>
-        <img id='imageCard' src={image} />
+        <img className='imageBox' src={image} />
       </div>
       <div>Projeto:{name}</div>
     </div>

@@ -10,7 +10,6 @@ export default ({ setVisible, data }) => {
   }, []);
   return (
     <div className='ContainerModal'>
-      <div onClick={() => setVisible(false)}>[ FECHAR]</div>
       <div className='content'>
         <div id='imagemContainer'>
           <h1>{data.name}</h1>
@@ -21,6 +20,7 @@ export default ({ setVisible, data }) => {
           <p>{data.desc}</p>
           <a href={data.rota}>IR PARA</a>
         </div>
+        <div onClick={() => setVisible(false)}>[ FECHAR]</div>
       </div>
     </div>
   );

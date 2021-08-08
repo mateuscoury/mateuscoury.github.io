@@ -9,6 +9,8 @@ import ecommerceimg from './assets/images/novo.png';
 import trybewalletimg from './assets/images/trybewallet.png';
 import facebookimg from './assets/images/facebook.png';
 import starwarsimg from './assets/images/starwars.png';
+import appdereceitasimg from './assets/images/apdeReceitas.png';
+import strangerThingsImg from './assets/images/strangerthings.png';
 
 import ParticlesBg from 'particles-bg';
 import PortiCards from './components/PortiCard';
@@ -40,7 +42,11 @@ function App() {
         <div id='home'>
           <h1>BEM VINDO AO MEU PORTIFÓLIO</h1>
           <h2>MATEUS COURY || PROGRAMADOR FULL STACK</h2>
-          <div onMouseOver={() => setOver(true)} onMouseLeave={() => setOver(false)}>
+          <div
+            id='areaImageProg'
+            onMouseOver={() => setOver(true)}
+            onMouseLeave={() => setOver(false)}
+          >
             {over ? <img src={avatar} /> : <img src={avatar1} />}
           </div>
         </div>
@@ -48,7 +54,7 @@ function App() {
         <div id='about'>
           <div id='insideContainer'>
             <div id='left'>
-              <SkillItem name='HTML' percent={100} />
+              <SkillItem name='HTML' percent={80} />
               <SkillItem name='CSS' percent={60} />
               <SkillItem name='JAVASCRIPT' percent={80} />
               <SkillItem name='REACT' percent={60} />
@@ -77,6 +83,7 @@ function App() {
           </div>
         </div>
         <div id='portifolio'>
+          <h1>Clique em cima para detalhes...</h1>
           <div id='gridContainer'>
             <PortiCards
               setVisible={setVisible}
@@ -86,20 +93,18 @@ function App() {
               rota={'https://mateuscoury.github.io/ecommercetrybe/#/'}
               name='E-COMERCE TRYBE'
               desc={
-                'projeto front-end com react material ui e outros que teve como objetivo contruir um e-commerce.ele se conecta a api do mercado livre e permite filtrar por categoria pesquisar por item e outras coisas'
+                'projeto front-end da Trybe com react material ui e outros que teve como objetivo contruir um e-commerce.ele se conecta a api do mercado livre e permite filtrar por categoria pesquisar por item e outras coisas'
               }
             />
             <PortiCards
               setVisible={setVisible}
-              rota={'https://mateuscoury.github.io/ecommercetrybe/#/'}
-              image={
-                'https://www.aguanaboca.org/wp-content/uploads/2018/02/Receita-de-Coxinha-de-mandioca-sem-gl%C3%BAten.jpg'
-              }
+              rota={'https://portfolios-eeb4a.web.app/comidas'}
+              image={appdereceitasimg}
               className='cards'
               setData={setData}
-              name='projeto4'
+              name='Projeto App de Receitas'
               desc={
-                'projeto front-end com react material ui e outros que teve como objetivo contruir um e-commerce.ele se conecta a api do mercado livre e permite filtrar por categoria pesquisar por item e outras coisas'
+                'Projeto em grupo da Trybe usando React,Bootstrap,RTL e outros com o intuito de desenvolver um aplicativo de busca de receitas de comida e bebidas.'
               }
             />
             <PortiCards
@@ -110,7 +115,7 @@ function App() {
               setData={setData}
               name='Trybe wallet'
               desc={
-                'projeto front-end com react material ui e outros que teve como objetivo contruir um e-commerce.ele se conecta a api do mercado livre e permite filtrar por categoria pesquisar por item e outras coisas'
+                'projeto  front-end da Trybe com react material ui e outros que teve como objetivo contruir um e-commerce.ele se conecta a api do mercado livre e permite filtrar por categoria pesquisar por item e outras coisas'
               }
             />
 
@@ -122,7 +127,7 @@ function App() {
               setData={setData}
               rota={'https://mateuscoury.github.io/facebook-project/'}
               desc={
-                'Projeto cujo objetivo foi colocar em prática o uso do flexbox e também da biblioteca bulma para estilização de alguns componentes para fazer um clone da página inicial do Facebook.'
+                'Projeto da Trybe cujo objetivo foi colocar em prática o uso do flexbox e também da biblioteca bulma para estilização de alguns componentes para fazer um clone da página inicial do Facebook.'
               }
             />
             <PortiCards
@@ -133,20 +138,18 @@ function App() {
               setData={setData}
               rota={'https://mateuscoury.github.io/starwarsdatab/'}
               desc={
-                'Projeto com o objetivo de criar um aplicação de pesquisa de planetas do universo de star wars para resgatar detalhes dos mesmos.É possível adicionar filtros de acordo com as informacoes disponiveis.'
+                'Projeto da Trybe com o objetivo de criar um aplicação de pesquisa de planetas do universo de star wars para resgatar detalhes dos mesmos.É possível adicionar filtros de acordo com as informacoes disponiveis.'
               }
             />
             <PortiCards
               setVisible={setVisible}
-              image={facebookimg}
-              name='EM BREVE MAIS UM'
+              image={strangerThingsImg}
+              name='Projeto Stranger Things'
               className='cards'
               setData={setData}
-              rota={
-                'https://www.aguanaboca.org/wp-content/uploads/2018/02/Receita-de-Coxinha-de-mandioca-sem-gl%C3%BAten.jpg'
-              }
+              rota={'https://mateuscoury-ft.herokuapp.com/'}
               desc={
-                'Projeto cujo objetivo foi colocar em prática o uso do flexbox e também da biblioteca bulma para estilização de alguns para fazer um clone da página inicial do Facebook.'
+                'Projeto da Trybe baseado na série stranger things utilizando React,Node e com deploy no Heroku cuja finalidade é mostrar a situação de cada personagem na série.'
               }
             />
           </div>
