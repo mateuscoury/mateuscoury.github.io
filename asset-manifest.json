@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c1380ad8.chunk.css",
-    "main.js": "/static/js/main.d690e00a.chunk.js",
-    "main.js.map": "/static/js/main.d690e00a.chunk.js.map",
+    "main.js": "/static/js/main.a33c5871.chunk.js",
+    "main.js.map": "/static/js/main.a33c5871.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca1a0baa.js",
     "runtime-main.js.map": "/static/js/runtime-main.ca1a0baa.js.map",
     "static/js/2.fbb9fac3.chunk.js": "/static/js/2.fbb9fac3.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.c1380ad8.chunk.css.map": "/static/css/main.c1380ad8.chunk.css.map",
     "static/js/2.fbb9fac3.chunk.js.LICENSE.txt": "/static/js/2.fbb9fac3.chunk.js.LICENSE.txt",
+    "static/media/Screenshot_2020-09-28 Mateus Coury no Instagram “Campus Party 2017 🎮”.5a17ff44.png": "/static/media/Screenshot_2020-09-28 Mateus Coury no Instagram “Campus Party 2017 🎮”.5a17ff44.png",
     "static/media/apdeReceitas.cfcd05be.png": "/static/media/apdeReceitas.cfcd05be.png",
     "static/media/avataaars (1).71c9499d.png": "/static/media/avataaars (1).71c9499d.png",
     "static/media/avataaars (2).6b20368d.png": "/static/media/avataaars (2).6b20368d.png",
@@ -23,6 +24,6 @@
     "static/js/runtime-main.ca1a0baa.js",
     "static/js/2.fbb9fac3.chunk.js",
     "static/css/main.c1380ad8.chunk.css",
-    "static/js/main.d690e00a.chunk.js"
+    "static/js/main.a33c5871.chunk.js"
   ]
 }
